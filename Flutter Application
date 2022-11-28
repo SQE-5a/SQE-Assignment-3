@@ -1,1 +1,3 @@
+#Component and Architectural level modularity requirements.
 
+Flutter is cross platform UI tool kit, which is designed in such a way that you can reuse the code through cross platfoems such as Android and IOS. Their main moto is to
