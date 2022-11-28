@@ -21,3 +21,5 @@ each depend on the underlying layer. No layer has privileged access to the layer
 framework level is designed to be optional and replaceable.
 
 ![1](https://user-images.githubusercontent.com/105450025/204389128-9ee1134f-6588-4af2-86db-c92badabf1b5.png)
+
+To the underlying operating system, Flutter applications are packaged in the same way as any other native application. A platform-specific embedder provides an entrypoint; coordinates with the underlying operating system for access to services like rendering surfaces, accessibility, and input; and manages the message event loop. The embedder is written in a language that is appropriate for the platform: currently Java and C++ for Android, Objective-C/Objective-C++ for iOS and macOS, and C++ for Windows and Linux. Using the embedder, Flutter code can be integrated into an existing application as a module, or the code may be the entire content of the application. Flutter includes a number of embedders for common target platforms, but other embedders also exist.
