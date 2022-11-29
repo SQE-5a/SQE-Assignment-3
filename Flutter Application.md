@@ -63,3 +63,30 @@ To avoid bad performance issues, you can use CounterWidget, which helps develop 
 
 Flutter’s development tool provides an advantage of reducing the application size. With the help of Gradle, you can reduce the Flutter application size to optimize Flutter performance.
 Using the packaging system introduced by Google, you can create bundles of Android applications.
+
+
+# Security Requirements
+
+Following are the sequrity requirements:
+
+### Use code obfuscation:
+
+Hackers can reverse engineer app code. Strings, methods, class names, and API keys can be leaked if hackers launch attacks on the application. Hackers can easily misuse the code if data is stored in plain text. You can secure Flutter apps using code obfuscation techniques that modify an app’s binary. Use the -obfuscate parameter from the Dart side to obfuscate data.
+
+
+### Use Flutter jailbreak detection:
+
+Flutter_jailbreak_detection package in Flutter helps safeguard apps against security threats from a jailbroken or rooted device.This package can be used to detect whether the app is running on a compromised device. Jailbroken or rooted devices have more privileges and enable easy installation of malware and viruses. Flutter apps with jailbreak detection use RootBeer on Android and DTTJailbreakDetection on iOS to detect if the app is running on a jailbroken or rooted device.
+
+
+### Ensure Secure Network connection:
+
+A secure network connection between mobile apps and servers is a prerequisite to ensure the protection of apps. Using a Transport Secure Layer (TSL) facilitates the secure exchange of information. Whitelisting your domain can help restrict traffic that is not secure. Implementing certificate pinning is another security best practice that will ensure all connections are secure. This prevents hackers from tampering with data in transit using illegitimate certificates.
+
+### Use Only Necessary permissions
+
+Applications can access hardware and native APIs through app permissions. Avoid adding plugins that contain unnecessary permission requests.
+
+### Secure User Data
+
+Applications sometimes may have to store sensitive data such as PII. Use the Flutter_secure_storage package when there is a need to store PII, auth token, or other sensitive data. This package uses Keystore for Android and Keychains for iOS. You can use Hive which is a Dart package to store data locally and prevent tampering.
