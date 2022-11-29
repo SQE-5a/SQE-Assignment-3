@@ -34,32 +34,32 @@ In flutter we have following methods to optimize the app
 5- Avoiding rebuilding of widget in Animated Builder.
 6- Decrease Application size
 
-## Avoid State Flutter widget.
+### Avoid State Flutter widget.
 
 he common mistake we all make is using State Flutter widgets for Flutter App development at the beginning of development. Stateful widgets can be used if your application has a large build function and you want to rebuild.
 
 SetState() and StatefulWidget should only be used to rebuild or update. Moreover, it is better to avoid using it in whole widgets for better Flutter performance.
 
-## Use const keyword
+### Use const keyword
 
 onst keyword works as a constant, which is a type of Flutter widget used at a time of compilation to avoid. Const allows using multiple widgets without reducing performance. Another benefit of using const is that it avoids rebuilding whenever you use different widgets.
 
-## Using Async
+### Using Async
 
 Async code is tough to upgrade, and debugging the Asynchronous code is also difficult. However, the code’s readability increases when combined with Async.
 
 
-## Develop and Display Frames
+### Develop and Display Frames
 
 The display is divided into two parts: structure and picture. Developers have 8ms for structure and another 8ms for the picture to render a 60hz display.
 
 Always divide 16ms equally between structure and picture for better flutter performance in your application
 
-## Avoid Rebuilding widgets
+### Avoid Rebuilding widgets
 
 To avoid bad performance issues, you can use CounterWidget, which helps develop animation without rebuilding multiple widgets.
 
-## Decrease Application Size
+### Decrease Application Size
 
 Flutter’s development tool provides an advantage of reducing the application size. With the help of Gradle, you can reduce the Flutter application size to optimize Flutter performance.
 Using the packaging system introduced by Google, you can create bundles of Android applications.
