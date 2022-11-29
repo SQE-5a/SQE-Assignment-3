@@ -2,12 +2,12 @@
 Work divided into three members of our group as follows:
 
 ## Hashim Work:-
-Complete 1st and 2nd point of task2 of assignment on three open source projects 'Natrium','Dolibarr','Vue StoreFront'.
+Complete 6 points of task2 of assignment on open source project 'Natrium'.
 
 ## Irtaza Work:-
-Complete 3rd and 4th point of task2 of assignment on three open source projects 'Natrium','Dolibarr','Vue StoreFront'.
+Complete 6 points of task2 of assignment on open source project 'Dolibarr'.
 
 ## Jawad Work:-
-Perform 5th and 6th point of task2 of assignment on three open source projects 'Natrium','Dolibarr','Vue StoreFront'.
+Complete 6 points of task2 of assignment on open source project 'Vue StoreFront'.
 
 So this was the conclusion of our today's meeting.
