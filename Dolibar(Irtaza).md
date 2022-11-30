@@ -2,7 +2,7 @@
 As far as documentation of dolibar is concerned, they are really into thier quality
 of maintaining it.
 
-## Documentation 1:
+## Documentation 1 (Basic info):
 ### Link:
   https://wiki.dolibarr.org/index.php?title=Home
   
@@ -13,3 +13,65 @@ possible solutions for the queries.
 #### 1- Developer documentation
 #### 2- Translator documentation
 #### 3- Tester documentation
+
+Moreover, Further documentation and all stuff with explanation can be accessed by
+accessing the particular pages referred by the link above.
+
+## Documentation 2 (Features info):
+### Link:
+  https://www.dolibarr.org/#features
+
+Above mentioned link is of the docuemntation of all the feautures of the `Dolibar`.
+
+### Documentation Given in Link are:
+All the functionalities with their possible types and documentation given in the 
+link are mentioned below:
+
+#### CRM & Sales
+    Prospects / Customers
+    Opportunities
+    Proposals
+    Sale Orders
+    Contracts / Subscriptions
+    Help Desk / Tickets
+
+#### Human Reationship Management (HR)
+    Employees
+    Expense Reports
+    Leave Requests
+    Timesheets
+    Recruitment
+    Membership
+
+#### CMS, Website, POS
+    CMS / Website
+    Point Of Sale
+
+#### Product & Stock
+    Products, Services
+    Stocks
+    Purchase, Approvisionning
+    Shipments
+    Manufacturing
+    
+#### Finance & Billing
+    Billing & Payments
+    Bank reconciliation
+    Double entry accounting
+
+#### Marketing
+    Emailing
+    Surveys
+
+#### Productivity
+    Projects, Tasks
+    Interventions
+    Agenda
+
+#### Integration, Development
+    API
+    Connectivity with external tools
+    Import, Export
+    Module Builder for developers
+
+
