@@ -90,3 +90,84 @@ Applications can access hardware and native APIs through app permissions. Avoid 
 ### Secure User Data
 
 Applications sometimes may have to store sensitive data such as PII. Use the Flutter_secure_storage package when there is a need to store PII, auth token, or other sensitive data. This package uses Keystore for Android and Keychains for iOS. You can use Hive which is a Dart package to store data locally and prevent tampering.
+
+
+# Process Requirements
+
+Following are the process requirements
+
+### Flutter version management
+
+When we work on our flutter project, we need to release the updated flutter and the app, verify it, and switch different types of SDK to test it, which takes us time for development. To avoid this, we use Flutter Version Management, which provides us with different types of Flutter versions for our machines. So that each time Flutter can test the app against the updated Flutter release without waiting for installation and will be able to switch to the Flutter version accordingly.
+
+First of all, we need to make sure that flutter is already installed and whether the flutter is the stable channel. if not then Type the below code in your command line.
+
+// set flutter to stable channel
+flutter channel stable
+// check flutter channel
+flutter channel
+// output
+Flutter channels:
+  master
+  dev
+  beta
+* stable
+
+After this, we have to determine whether our flutter is already installed or not, if not then first we will install FVM.
+$ pub global activate fvm
+
+### App life cycle
+
+The life cycle depends on the state and how it changes. A stateful widget has a state so we can clarify the life cycle of flutter dependent on it. Stage of the life cycle:
+
+createState()
+
+initState()
+
+didChangeDependencies()
+
+build()
+
+didUpdateWidget()
+
+setState()
+
+deactivate()
+
+dispose()
+
+### Open Source Contribution Requirements
+
+Following are the steps we have to follow:
+
+#### Step 1
+
+Head over flutter organization on GitHub and select your concerned repository from the repository tab which has 27 repositories as of now. Flutter project on GitHub has several repositories. Some of the important repositories are as following:
+
+Devtools
+Engine
+Flutter-IntelliJ
+Packages
+Plugins
+Samples
+Tests
+Website
+
+#### Step 2
+
+Choose an issue of the type you are most experienced at or find issues labeled as ‘easy fix’, ‘good first contribution’, ‘entertaining new contributor project’, ‘documentation’, ‘d: API docs’.
+
+#### Step 3
+
+If you’re not sure about the solutions to an issue, you can talk to maintainers to solve the issue. You can join Flutter project’s Discord server and consult with the exact concerned person about your issue. Explore different channels there and find the one representing relevant purpose to your issue. As mentioned earlier, flutter team is readily available anytime to help you pave out from any issue you’re facing.
+
+#### Step 4
+
+There is an option in GitHub to fork the repository. You can clone it and do the changes to solve the issue. Keep in mind that all the changes you make will remain in your custody until you pull a request.
+
+Moreover, if you have discovered a breaking change, you should design a document presenting the change. You should highlight the root cause, purpose of change, what problem it caused and how possibly it can be rectified.
+
+#### Step 5
+
+Last but not least, after you have pulled the request, wait for reviews and work on it. Once any of the maintainers find your request solid, you’ll receive an LGTM (looks good to me) comment on your PR. It will be ready to be merged into the repository. Congrats!! It’s your success.
+
