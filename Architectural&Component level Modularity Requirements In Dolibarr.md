@@ -1,6 +1,6 @@
 # MicroServices used by Dolibarr
 
-![1](https://www.researchgate.net/profile/Artem-Polyvyanyy/publication/335700013/figure/fig1/AS:1021766851911680@1620619609842/Enterprise-System-Integrated-with-a-Microservice-system.png)
+
 
 
 
