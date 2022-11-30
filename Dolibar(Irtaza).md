@@ -75,3 +75,20 @@ link are mentioned below:
     Module Builder for developers
 
 
+## Documentation 3 (Youtube):
+### Link:
+  https://www.youtube.com/user/DolibarrERPCRM
+
+Above mentioned link is all about the video tutorials and information, with respect
+to videos. If anyone is not fond of reading the bunch of documentaion, then the 
+easiest way is by getting it by youtube video presented there.
+
+### Tutorials:
+Their youtube channel has a well divided and moduled playlists of videos.
+i.e
+#### Intro about dolibar
+#### POS in Doliar
+etc
+
+This is also a great source of information and can be called as the `Video Documentation`.
+
