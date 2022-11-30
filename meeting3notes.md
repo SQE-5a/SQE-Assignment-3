@@ -1,8 +1,10 @@
-### Purpose of Meeting:
-As discussed in the meeting, all members were having issues related to the considering
-and understanding the quality attributes.
-
-### Solution to the Problem:
-As discussed in the meeting we discussed that now, we will be doing only two projects
-i.e  `Vue StoreFront` and `Natrium`. So, we will be skipping the one project and will
-only observe 2 projects for non functional requirements.
+## Purpose of Meeting:
+According to that meeting,we wanted to change our work division 
+So,Work divided between team members as follows:
+### Hashim Work
+Complete 1-6 points of assignment for Flutter Natrium project.  
+### Jawad Work
+Complete 1-3 points of assignment for Dolibarr project & Vue StoreFront Project.  
+### Irtaza Work
+Complete 4-6 points of assignment for Dolibarr project & Vue StoreFront Project.  
+Thats All.
