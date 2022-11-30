@@ -10,6 +10,6 @@ This link explains almost all the queries about the dolibar and has almost all t
 possible solutions for the queries.
 
 ### Documentations Given in link are:
-#### Developer documentation
-#### Translator documentation
-#### Tester documentation
+#### 1- Developer documentation
+#### 2- Translator documentation
+#### 3- Tester documentation
