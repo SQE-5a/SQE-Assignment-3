@@ -63,3 +63,35 @@ Their development files are written in php language and In php files modules the
 
 <img width="711" alt="reusability" src="https://user-images.githubusercontent.com/113935723/204856889-89656677-fa36-4c37-8b34-ec5ce25881d2.PNG">
 
+# Extensibility
+
+It is achieved mostly in websites by using previous code and just adding more sugar or more implementation to them.Its purpose is to modify or customize things which are already made.  
+  
+According to dolibarr documentation,The marketplace is open to everybody and serves as a central repository for hundreds of external add-ons which enhance Dolibarr for specific needs. You can also extend and enhance the features of your application by yourself, without any coding or development effort, by using the low-code Module Builder assistant. If the Module Builder does not offer all the customisation that you need, then you can take the route of custom development to achieve your business goals.  
+
+Website Link of Extensibility information:
+https://www.dolibarr.org/  
+
+
+
+# Linters For Better Code Quality
+Linters are basically guidelines set according to head developers team of the project to avoid small mistakes but these are not like the syntax error,  these are basically something else which you want your developers must do and if they don't do ,automatically should be fixed.
+
+## According to dolibarr head team  
+You can use git hooks to check the syntax of the file you commit and cancel the commit if something is wrong. You need phpcs command line tool for this (sudo apt-get -y install php-codesniffer). If you have phpcbf installed, you can also fix the files automatically.  
+This is how to:  
+
+Go to /dev/setup/git/hooks of your local repository, copy the file pre-commit into your .git/hooks folder of the local git repository and make it executable.  
+
+Next, you need to edit pre-commit file in .git/hooks to modify the DIRPHPCS variable to set the path of your phpcs and phpcbf tool (you can keep it empty if tools are available into your PATH).  
+
+Such hooks will work when using on command line but may also work when committing using your common IDE (it has been validated with Eclipse and VSC).  
+
+Once installed, the hook will start on your next commit to re-format your code, so your code will always match the coding syntax rules. If everybody enable this   hook, everybody will use the same coding syntax rule, so it is highly recommended to enable it if you can. If something is wrong in the syntax, the commit will be   immediately canceled. If it can be fixed automatically, phpcbf will fix it so you just have to try the commit a second time to have it validated.  
+## WebsiteLink of Reference
+https://wiki.dolibarr.org/index.php?title=Environment_and_development_tools#Install_Pre-commit_git_hook  
+
+Thats all.
+
+
+
