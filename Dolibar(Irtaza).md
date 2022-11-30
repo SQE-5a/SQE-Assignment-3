@@ -8,3 +8,8 @@ of maintaining it.
   
 This link explains almost all the queries about the dolibar and has almost all the
 possible solutions for the queries.
+
+### Documentations Given in link are:
+#### Developer documentation
+#### Translator documentation
+#### Tester documentation
