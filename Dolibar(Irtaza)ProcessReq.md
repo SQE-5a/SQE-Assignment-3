@@ -19,8 +19,18 @@ All the verisons and listings are mentioned in a proper way with a detailed on-c
 <img width="960" alt="Screenshot_20221201_012806" src="https://user-images.githubusercontent.com/105812482/205003431-2d6632e1-3fd6-4548-bc68-e503f699ba6d.png">
 
 One was easily seek information about:
-**
-1- Version: 16.0 (List of other versions on page Category:RoadMap)
-2- Release date: 08/09/2022
-3- Main focus (What developers has mainly worked on, but not only, so for full list of changes see the detailed ChangeLog):
-**
+
+#### 1- Version: 16.0 (List of other versions on page Category:RoadMap)
+#### 2- Release date: 08/09/2022
+#### 3- Main focus (What developers has mainly worked on, but not only, so for full list of changes see the detailed ChangeLog):
+
+### Dolibar Change Catalog:
+  Dolibar also somehow managed to have a change catalog file in their open source repository
+  for the native users to have a bird's eye view on the recent changes on release and
+  versions.
+  
+#### Link:
+  https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog
+  
+  
+<img width="960" alt="Screenshot_20221201_013228" src="https://user-images.githubusercontent.com/105812482/205004410-426f8ad9-2892-48b7-af3d-2d87c51b5357.png">
