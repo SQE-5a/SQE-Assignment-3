@@ -6,6 +6,11 @@ of maintaining it.
 ### Link:
   https://wiki.dolibarr.org/index.php?title=Home
   
+  
+  
+  <img width="960" alt="Screenshot_20221201_011719" src="https://user-images.githubusercontent.com/105812482/205001139-4462e899-ed41-4b7b-af87-0f55fef22fb0.png">
+
+  
 This link explains almost all the queries about the dolibar and has almost all the
 possible solutions for the queries.
 
@@ -26,6 +31,10 @@ Above mentioned link is of the docuemntation of all the feautures of the `Doliba
 ### Documentation Given in Link are:
 All the functionalities with their possible types and documentation given in the 
 link are mentioned below:
+
+
+<img width="960" alt="Screenshot_20221201_011748" src="https://user-images.githubusercontent.com/105812482/205001283-d84ec389-3301-45a7-aad3-a99ba961037c.png">
+
 
 #### CRM & Sales
     Prospects / Customers
