@@ -48,10 +48,10 @@ https://wiki.dolibarr.org/index.php?title=Module_Leaves#Life_cycle_.2F_Business_
 
 ### Main steps:
 
-A) Draft status means the leave does not exists yet. Edition is not yet finished.
-B) Status validated means also "waiting for approval". When you validate a leave, an email is sent to the supervisor.
-C) A supervisor with permission "Approve leaves" can approve the leave.
-E) The author of leave can cancel it if status is not yet approved. He can then send it back to draft if he want to resubmit it later.
+#### A) Draft status means the leave does not exists yet. Edition is not yet finished.
+#### B) Status validated means also "waiting for approval". When you validate a leave, an email is sent to the supervisor.
+#### C) A supervisor with permission "Approve leaves" can approve the leave.
+#### E) The author of leave can cancel it if status is not yet approved. He can then send it back to draft if he want to resubmit it later.
 
 
 It can be explained diagramatically in a great manner.
