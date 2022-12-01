@@ -34,3 +34,24 @@ One was easily seek information about:
   
   
 <img width="960" alt="Screenshot_20221201_013228" src="https://user-images.githubusercontent.com/105812482/205004410-426f8ad9-2892-48b7-af3d-2d87c51b5357.png">
+
+
+## Dolibar Life Cycle:
+
+Dolibar also explains the life cycle and business rules in its own website:
+
+<img width="960" alt="Screenshot_20221201_013432" src="https://user-images.githubusercontent.com/105812482/205004868-c7cf4a72-597c-49fd-a082-e004b638d1d5.png">
+
+### Link:
+https://wiki.dolibarr.org/index.php?title=Module_Leaves#Life_cycle_.2F_Business_rules
+
+
+### Main steps:
+
+A) Draft status means the leave does not exists yet. Edition is not yet finished.
+B) Status validated means also "waiting for approval". When you validate a leave, an email is sent to the supervisor.
+C) A supervisor with permission "Approve leaves" can approve the leave.
+E) The author of leave can cancel it if status is not yet approved. He can then send it back to draft if he want to resubmit it later.
+
+
+It can be explained diagramatically in a great manner.
