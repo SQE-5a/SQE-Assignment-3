@@ -171,3 +171,19 @@ Moreover, if you have discovered a breaking change, you should design a document
 
 Last but not least, after you have pulled the request, wait for reviews and work on it. Once any of the maintainers find your request solid, you’ll receive an LGTM (looks good to me) comment on your PR. It will be ready to be merged into the repository. Congrats!! It’s your success.
 
+
+# Documentation
+
+Folllowing is the link of user manual
+https://docs.flutter.dev/
+
+
+following is the link of intallation:
+https://docs.flutter.dev/get-started/install
+
+following is the link for development 
+https://flutter.dev/development
+
+
+following is the link of tutorials
+https://www.youtube.com/watch?v=PKDWinlLfAo&list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E
