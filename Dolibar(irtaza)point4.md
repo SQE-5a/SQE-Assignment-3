@@ -36,5 +36,10 @@ If you prefer a manual mode, you can also use the backup tool designed for your 
 
 `mysqldump -u user -pyourpass --result-file=mysqldump_databasename_version_date.sql databasename`
 
+### Youtube Tutorial:
+Link: https://www.youtube.com/watch?v=XDJOl77kVeY
+
+They also provide their youtube tutorial to do and gather all the interesting stuff related to the backup of dolibar.
+
 
 
