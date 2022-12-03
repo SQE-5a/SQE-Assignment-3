@@ -16,3 +16,25 @@ The session handler seems to be PHP. This means that a switch to another server 
 
 <img width="960" alt="Screenshot_20221203_014423" src="https://user-images.githubusercontent.com/105812482/205432497-50a850a6-da36-4f76-a669-79c6a00bf6d7.png">
 
+## 2- Recoverability in Dolibar
+
+This is the simplest way to make your backup, and in addition all your backups will be stored on server and will be listed, so that you can retrieve any version anyday.
+
+If you use a recent enough version of Dolibarr, just log into Dolibarr with an administrator account (only admins can use system tools).
+
+Then go to Home -> System tools -> Backups. Choose your options for your backup (you can keep all default values).
+
+Alternative: the default method MySQL Dump (mysqldump) also needs that you have access to the mysqldump binary in execution on your server. If you are on a shared host that disable the mysqldump usage, you can try other method called MySQL Dump (php). This method is not guaranted at 100%, so please try it first by yourself by making a backup and then restoring it on a local non production server to check that your data is correctly saved.
+
+
+Link: https://wiki.dolibarr.org/index.php?title=Backups
+
+<img width="960" alt="Screenshot_20221203_014857" src="https://user-images.githubusercontent.com/105812482/205432671-fa5c4029-c53f-419d-a240-12b858a64a58.png">
+
+
+
+
+
+
+
+
