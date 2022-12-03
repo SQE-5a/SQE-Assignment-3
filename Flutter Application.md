@@ -91,6 +91,51 @@ Applications can access hardware and native APIs through app permissions. Avoid 
 
 Applications sometimes may have to store sensitive data such as PII. Use the Flutter_secure_storage package when there is a need to store PII, auth token, or other sensitive data. This package uses Keystore for Android and Keychains for iOS. You can use Hive which is a Dart package to store data locally and prevent tampering.
 
+# Reliability Requirements
+
+Following are the reliability requirements in flutter
+
+#### Autoscaling
+
+Use AutoScaling wraps Scaffold, you must init AutoScale with two parameters:
+
+baseWidth: baseWidth is your design's width, the unit is dp
+child: child is Scaffold
+AutoScaling(
+	baseWidth: 375,
+	child: Scaffold(
+		...
+  ),
+)
+
+In the child Widget of Scaffold，if you want to set specific size of Widget, you must use function AutoScalingSize.scaleSize() to convert size:
+
+Container(
+	width: AutoScalingSize.scaleSize(context, 375),
+	height: AutoScalingSize.scaleSize(context, 25),
+	color: Colors.orange,
+)
+
+#### Load Balancing
+
+For load balancing you can use following dart package:
+
+https://grpc.io/docs/languages/dart
+
+#### Running on Server
+
+Following is the simple process:
+Build a flutter web: flutter build web —release
+Create an instance on AWS ec2 server: mean allocate some memory for your website on the server. An instance is a virtual server in the AWS cloud.
+Connect to your server(instance) with the help of putty :
+Install Vesta control panel on your server.
+Upload your content(website) on the server. With the help of FileZilla, you can easily upload your website content on a server.
+If it’s a Firebase project you can use Firebase Hosting. It will ask you to install Firebase Tools on your system and you will have to initialize it on the root folder of your project.
+
+#### Fault tolerance
+
+Fault tolerance is a process that enables an operating system to respond to a failure in hardware or software. This fault-tolerance definition refers to the system’s ability to continue operating despite failures or malfunctions. An operating system that offers a solid definition for faults cannot be disrupted by a single point of failure.In the context of web application delivery, fault tolerance relates to the use of load balancing and failover solutions to ensure availability via redundancy and rapid disaster recovery. Load balancing and failover are both integral aspects of fault tolerance.
+
 
 # Process Requirements
 
