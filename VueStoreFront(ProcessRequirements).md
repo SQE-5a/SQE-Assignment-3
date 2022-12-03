@@ -2,7 +2,7 @@
 VueStoreFront's first version was version 1.0,then their releases came according to the needs and bugs,So versions came time to time.
 And now latest version is the verion 1.12.3.In between they crossed 50+ version .  For all next versions,They have attached information about the bugs fixed and modifications  
 done in that next version .  
-### Link:
+## Link:
 https://github.com/vuestorefront/vue-storefront/releases
 
 <img width="949" alt="versioning" src="https://user-images.githubusercontent.com/113935723/205461064-2903157d-a27c-496b-b567-e8b2c3430fc1.PNG">
@@ -24,10 +24,10 @@ API corrections for features from phase A based on feedback if the DX wasn;'t as
 writing unit/integration tests for introduced features.  
 According to the process of VueStoreFront,  
 
-  When any bug came,they make the bug report acording to template given already in the github project,and added to the issues.
+  When any bug came,they make an issue.And also gug report acording to template given already in the github project,and added to the issues.
 Comments are done on the bug report.
 Any person who become willing to handle the issue gives his aggreement and then he solve the issue.When issue become resolved ,issue is closed.  
-  Link:  
+ ## Link:  
 https://github.com/vuestorefront/vue-storefront/issues  
 
 
@@ -36,5 +36,21 @@ https://github.com/vuestorefront/vue-storefront/issues
 They welcome all.They say if you have found any issue  or you are willing to handle any issue present in our github repository,you can contribute easily .  
 But you have to follow some guidelines. 
 <img width="913" alt="contribute" src="https://user-images.githubusercontent.com/113935723/205462598-f9065495-ba32-484a-8f99-f81b2063f12c.png">  
-Link:  
-https://github.com/vuestorefront/vue-storefront/blob/main/CONTRIBUTING.md
+## Link:  
+https://github.com/vuestorefront/vue-storefront/blob/main/CONTRIBUTING.md  
+
+
+
+# Review
+Normal public can give review in terms of rating by using quantity of stars from 5 stars on github to give them review.  
+  
+They give their own intro overview on their documentation and readme and provide any required information like developer guide ,contribution requirement,etc.  
+  
+  For issue review or feature review,they allow you to give your review by commenting below the particular issue.  In this sense,reviewer can be any one.It may be part of team or not because it is an open source project.  
+  
+  <img width="946" alt="review" src="https://user-images.githubusercontent.com/113935723/205463314-4bcfb3ce-3212-4141-b15a-1e249f2fa75a.PNG">  
+
+## Link:
+https://github.com/vuestorefront/vue-storefront/issues/4956
+
+That all about process requirements of Vue Store Front open source project.
