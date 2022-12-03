@@ -34,7 +34,7 @@ Link: https://wiki.dolibarr.org/index.php?title=Backups
 ### Using mysqldump
 If you prefer a manual mode, you can also use the backup tool designed for your database. With Mysql, the command to backup your database into a file is :
 
-mysqldump -u user -pyourpass --result-file=mysqldump_databasename_version_date.sql databasename
+`mysqldump -u user -pyourpass --result-file=mysqldump_databasename_version_date.sql databasename`
 
 
 
