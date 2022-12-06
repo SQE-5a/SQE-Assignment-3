@@ -1,7 +1,7 @@
 Dolibarr is an OpenSource project built by the addition of modules (you only enable the features you need), on a WAMP, MAMP or LAMP server (Apache, Mysql, PHP for all Operating Systems).
 
 # MicroServices
-
+MicroServices are used when for one project,different separate independent projects having its all bundles of ui and backend ,are made called modules.You can use them in multiple projects.
 Dolibarr project is using Microservices structure as they are using small modules with less coupling and independently which is simple to develop and modify.
 
 ![Enterprise-System-Integrated-with-a-Microservice-system](https://user-images.githubusercontent.com/113935723/204827023-09230158-d122-4e0f-a983-b30e8ad53cde.png)
