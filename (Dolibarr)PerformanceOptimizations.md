@@ -22,14 +22,14 @@ Lazy loading is a way used to prevent or delay the loading of non-critical resou
 When you open first page then there is no need to load the 3rd page ,when further load will be needed like you go to 3rd page then 3rd page loading should be started.  
 You can use this mechanism for different types of resources, but in the case of images, our goal is to lazily load everything that is not visible to the user within the initial viewport.
 
-Use the loading="lazy" attribute to load an image lazily.
-Dolibarr is not using the concept of Lazy Loading.  
+Use the loading="lazy" attribute to load an image lazily.But they have not 
+
 
 # PWA  
-Progressive Web Application (PWA) is a type of web app that can operate both as a web page and mobile app on any device. It is a great solution for poor mobile UX and low conversion rates in your online store. Using standard technologies, PWA is aimed at delivering native-like user experience, with speedier conversion and cleaner browsing even with a poor Internet connection. 
-There is no any usage of PWA found in dolibarr as they have not used any module to deal Pwa services.
+Progressive Web Application (PWA) is a type of web app that can operate both as a web page and mobile app on any device.The web app manifest is a file you create that tells the browser how you want your web content to display as an app in the operating system. The manifest can include basic information such as the app's name, icon, and theme color; advanced preferences, such as desired orientation and app shortcuts; and catalog metadata, such as screenshots.It also uses service workers.Its configuration is done mostly in manifest.json file .  
+<img width="947" alt="PWA" src="https://user-images.githubusercontent.com/113935723/205865539-8a11b695-6df7-448c-bc66-87e7be5d0cab.PNG">  
+
 
 # Local Storage
- The localStorage can be used to cache a website or to store static data to show the client information even when the page is offline.
-Local storage can store 5MB of data per app for the lifetime of the app. Closing the browser will not affect the data in any way – it stays there unless you delete it.
-Dolibarr is not giving its developers about any guidance of using that functionality of browser.
+ This lets you persist data for long-term storage, save sites or documents for offline use, retain user-specific settings for your site.
+Closing the browser will not affect the data in any way – it stays there unless you delete it.
