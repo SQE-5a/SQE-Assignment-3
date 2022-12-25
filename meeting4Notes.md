@@ -11,4 +11,4 @@ Hashim will do whole assignment for Flutter application project.
 Jawad will do 1-3 points of Assignment for Dolibarr project & 4-6 points of Assignment for vueStoreFront project.  
 Irtaza  will do 4-6 points of Assignment for Dolibarr project & 1-3 points of Assignment for vueStoreFront project.  
 
-### Hence In this way,we will be able to cover all points of open source projects to understand. 
+### Hence In this way,we will be able to cover all points of open source projects to understand! 
