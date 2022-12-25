@@ -11,4 +11,4 @@ Link of github code of that project is https://github.com/Dolibarr/dolibarr.
 ## Third:  Open source web site named as vue StoreFront
 Link of github code of that project is https://github.com/vuestorefront/vue-storefront.
 
-So we will work on these projects for this assignment.
+So we will work on these projects for assignment.
